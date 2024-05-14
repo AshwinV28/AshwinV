@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PC Support Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="bot" class="bot-container">
+      <div id="bot-greeting" class="bot-greeting">
+        <h1>PC Support Assistant!</h1>
+      </div>
+      <div id="chatbox" class="chatbox"></div>
+    </div>
+    <div id="os-selection" class="os-selection">
+      <label for="osDropdown">Select your operating system:</label>
+      <select id="osDropdown">
+        <option value="Windows">Windows</option>
+        <option value="Linux">Linux</option>
+        <option value="Mac">Mac</option>
+      </select>
+      <button id="nextBtn">Next</button>
+    </div>
+    <div id="home-button" class="home-button">
+      <button id="homeBtn">Home</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
